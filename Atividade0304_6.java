@@ -10,11 +10,9 @@ public class Atividade0304_6 {
 		numero = input.nextInt();
 		
 		while(intervalo <= 10) {
-			
 			multiplica = numero*intervalo;
 			System.out.println(numero +" x "+intervalo+" = "+ multiplica);
 			intervalo = intervalo + 1;
-			
 		}
 		
 		input.close();

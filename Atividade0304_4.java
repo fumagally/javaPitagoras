@@ -8,7 +8,6 @@ public class Atividade0304_4 {
 		int i = 1, numero = 0, positivos = 0, negativos = 0, neutros = 0;
 		
 		while(i <= 100) {
-			
 			System.out.println("("+i+") Digite um número: ");
 			numero = input.nextInt();
 			
@@ -22,7 +21,6 @@ public class Atividade0304_4 {
 			i++;
 		}
 		System.out.println("Positivos: "+positivos+" | Negativos: "+negativos+" | Neutros: "+neutros);
-		
 		input.close();
 	}
 	

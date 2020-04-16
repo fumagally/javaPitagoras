@@ -7,15 +7,12 @@ public class Atividade0304_2 {
 		
 		int i = 0;
 		while(i <= 100) {
-			
 			if(i % 2 != 0) {
 				System.out.println("O número "+i+" é ímpar!");
 			}
 			i++;
 		}
-		
 		input.close();
-		
 	}
 
 }
