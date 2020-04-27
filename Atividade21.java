@@ -50,7 +50,7 @@ public class Atividade21 {
 				break;
 				case 4:
 					valorParcelas = valor/6;
-					System.out.println("PAGAMENTO PARCELADO EM 3X:");
+					System.out.println("PAGAMENTO PARCELADO EM 6X:");
 					System.out.println("Valor total de sua compra: R$ "+valor);
 					System.out.println("Compra sem desconto!");
 					System.out.println("Valor da Parcela: R$ "+valorParcelas);
@@ -72,5 +72,4 @@ public class Atividade21 {
 		}
 		
 	}
-
 }
